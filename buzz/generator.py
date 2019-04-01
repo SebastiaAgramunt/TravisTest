@@ -19,6 +19,3 @@ def generate_buzz():
     phrase = ' '.join([sample(adjectives), buzz_terms[0], sample(adverbs),
         sample(verbs), buzz_terms[1]])
     return phrase.title()
-
-if __name__ == "__main__":
-    print(generate_buzz())
